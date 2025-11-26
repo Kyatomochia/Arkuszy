@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Arkusz 6</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #fafafa;
+        }
+
+        .box {
+            border: 2px solid #000;
+            background: #fff;
+        }
+
+        header {
+            max-width: 800px;
+            margin: 0 auto 12px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto 12px;
+        }
+
+        .columns {
+            display: flex;
+        }
+
+        .col {
+            flex: 1 1 0;
+            text-align: center;
+            min-height: 100px;
+        }
+
+        footer {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="index.html">Powrót</a>
+    <header class="box">
+        <section>Blok nagłówkowy</section>
+    </header>
+
+    <main class="box">
+        <section class="columns">
+            <section class="col box">Pierwszy blok sekcji</section>
+            <section class="col box">Drugi blok sekcji</section>
+            <section class="col box">Trzeci blok sekcji</section>
+            <section class="col box">Czwarty blok sekcji</section>
+        </section>
+    </main>
+
+    <footer class="box">Blok stopki</footer>
+</body>
+
+</html>

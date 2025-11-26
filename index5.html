@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Arkusz 5</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 16px;
+            background: #fafafa;
+        }
+
+        .box {
+            border: 2px solid #000;
+            background: #fff;
+        }
+
+        header {
+            max-width: 900px;
+            margin: 0 auto 8px;
+        }
+
+        .images-block {
+            max-width: 900px;
+            margin: 0 auto 12px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .main-block {
+            max-width: 900px;
+            margin: 0 auto 12px;
+            padding: 12px;
+        }
+
+        .inner {
+            border: 2px solid #000;
+            padding: 12px;
+            display: flex;
+            gap: 12px;
+            align-items: stretch;
+        }
+
+
+        aside {
+            width: 220px;
+            padding: 12px;
+        }
+
+
+        .right-col {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            flex: 1 1 0;
+        }
+
+        .right-col .nav {
+            padding: 12px;
+        }
+
+        .right-col .section {
+            padding: 12px;
+            min-height: 100px;
+        }
+
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="index.html">Powrót</a>
+    <header>
+        <section class="box">Blok nagłówkowy</section>
+    </header>
+
+    <section class="images-block box">Blok sekcji obrazów</section>
+
+    <main class="main-block">
+        <section class="inner">
+            <aside class="box">Blok sekcji lewej</aside>
+            <section class="right-col">
+                <section class="nav box">Blok nawigacyjny</section>
+                <section class="section box">Blok sekcji prawej</section>
+                </section>
+            </section>
+    </main>
+
+    <footer class="box">Blok stopki</footer>
+</body>
+
+</html>

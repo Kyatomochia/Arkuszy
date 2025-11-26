@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Arkusz 4</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 16px;
+            background: #fafafa;
+        }
+
+        .box {
+            border: 2px solid #000;
+            background: #fff;
+        }
+
+        header,
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nav-block {
+            max-width: 900px;
+            margin: 8px auto;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .main-block {
+            max-width: 900px;
+            margin: 12px auto;
+            padding: 12px;
+        }
+
+        .inner {
+            border: 2px solid #000;
+            padding: 12px;
+            display: flex;
+            gap: 12px;
+            align-items: stretch;
+        }
+
+
+        .left {
+            flex: 1 1 0;
+            padding: 12px;
+            min-height: 120px;
+        }
+
+        .right {
+            width: 260px;
+            padding: 12px;
+            min-height: 120px;
+        }
+
+        footer {
+            margin-top: 12px;
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="index.html">Powrót</a>
+    <header class="box">Blok nagłówkowy</header>
+
+    <section class="nav-block box">Blok nawigacyjny</section>
+
+    <main class="main-block">
+        <section class="inner">
+            <section class="left box">Sekcja lewa</section>
+            <aside class="right box">Sekcja prawa</aside>
+        </section>
+    </main>
+
+    <footer class="box">Blok stopki</footer>
+</body>
+
+</html>

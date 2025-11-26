@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Arkusz 10</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+            font-family: Arial, sans-serif;
+            background: #fafafa;
+            }
+            .box {
+            border: 2px solid #000;
+            background: #fff;
+            }
+
+            header, footer {
+            text-align: center;
+            }
+            .main-block {
+            max-width: 760px;
+            }
+            .inner {
+            border: 2px solid #000;
+            margin-top: 8px;
+            }
+            .columns {
+            display: flex;
+            }
+            .column {
+            flex: 1 1 0;
+            box-sizing: border-box;
+            text-align: center;
+            min-height: 140px;
+            }
+            .main-title {
+            font-weight: bold;
+            margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="index.html">Powrót</a>
+        <header class="box">
+            <section>Blok nagłówkowy</section>
+        </header>
+        <main>
+            <section class="main-block box">
+                <section class="main-title">Blok główny</section>
+                <section class="inner">
+                    <section class="columns">
+                        <section class="column box">Sekcja lewa</section>
+                        <section class="column box">Sekcja prawa</section>
+                    </section>
+                </section>
+            </section>
+        </main>
+        <footer class="box">Blok stopki</footer>
+    </body>
+</html>

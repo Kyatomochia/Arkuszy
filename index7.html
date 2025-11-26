@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Arkusz 7</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 16px;
+            background: #fafafa;
+        }
+
+        .box {
+            border: 2px solid #000;
+            background: #fff;
+        }
+
+        header {
+            max-width: 900px;
+            margin: 0 auto 12px;
+        }
+
+        header .nav {
+            padding: 10px;
+            text-align: center;
+        }
+
+        main.main-block {
+            max-width: 900px;
+            margin: 0 auto 12px;
+            padding: 12px;
+        }
+
+        .inner {
+            padding: 12px;
+            display: flex;
+            gap: 12px;
+            align-items: stretch;
+        }
+
+        aside {
+            width: 200px;
+            padding: 12px;
+        }
+
+        section.content {
+            flex: 1 1 0;
+            padding: 12px;
+        }
+
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="index.html">Powrót</a>
+    <header>
+        <section class="nav box">Blok nawigacyjny</section>
+    </header>
+
+    <main class="main-block box">
+        <section class="inner">
+            <aside class="box">Blok boczny</aside>
+            <section class="content box">Sekcja</section>
+        </section>
+    </main>
+
+    <footer class="box">Blok stopki</footer>
+</body>
+
+</html>

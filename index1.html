@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Arkusz 1</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 16px;
+            background: #fafafa;
+        }
+
+        .box {
+            border: 2px solid #000;
+            background: #fff;
+        }
+
+        header,
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 12px;
+            text-align: center;
+        }
+
+        .main-block {
+            max-width: 900px;
+            margin: 12px auto;
+            padding: 12px;
+        }
+
+        .inner {
+            padding: 12px;
+        }
+
+        .columns {
+            display: flex;
+            gap: 12px;
+        }
+
+        .col {
+            flex: 1 1 0;
+            padding: 18px;
+            text-align: center;
+            min-height: 140px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="index.html">Powrót</a>
+    <header class="box">Blok nagłówkowy</header>
+
+    <main class="main-block box">
+        <section class="inner">
+            <section class="columns">
+                <section class="col box">Blok sekcji lewej</section>
+                <section class="col box">Blok sekcji środkowej</section>
+                <section class="col box">Blok sekcji prawej</section>
+            </section>
+        </section>
+    </main>
+
+    <footer class="box">Blok stopki</footer>
+</body>
+
+</html>

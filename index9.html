@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Arkusz 9</title>
+        <meta charset="utf-8">
+        <style>
+            header, main, section, aside, footer, .nawigacja, .content {
+                border: 2px solid black;
+            }
+            main {
+                display: flex;
+                flex-direction: column;
+                background: #fff;
+            }
+            .nawigacja {
+                width: 100%;
+                box-sizing: border-box;
+                background: #fff;
+                text-align: center;
+            }
+            .content {
+                display: flex;
+                align-items: stretch;
+            }
+            .lewy, .srodkowy {
+                flex: 1 1 0;
+                min-height: 120px;
+                box-sizing: border-box;
+            }
+            aside {
+                width: 180px;
+                box-sizing: border-box;
+            }
+            header, footer {
+                text-align: center;
+                background: #fff;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <a href="index.html">Powrót</a>
+        <header>
+            <nav>Blok nagłówkowy</nav>
+        </header>
+        <main>
+            <nav class="nawigacja">Blok nawigacyjny</nav>
+            <section class="content">
+                <section class="lewy">Sekcja lewa</section>
+                <section class="srodkowy">Sekcja środkowa</section>
+                <aside>Blok boczny</aside>
+            </section>
+        </main>
+        <footer>Blok stopki</footer>
+    </body>
+</html>

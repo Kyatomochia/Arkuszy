@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Arkusz 12</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fafafa;
+        }
+
+        .box {
+            border: 2px solid #000;
+            background: #fff;
+        }
+
+        header,
+        footer {
+            text-align: center;
+        }
+
+        .article-block {
+            max-width: 900px;
+        }
+
+        .main-block {
+            max-width: 900px;
+        }
+
+        .columns {
+            display: flex;
+        }
+
+        .col {
+            flex: 1 1 0;
+            text-align: center;
+            min-height: 140px;
+        }
+
+        footer {
+            max-width: 900px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="index.html">Powrót</a>
+    <header class="box">
+        <section>Blok nagłówkowy</section>
+    </header>
+
+    <section class="article-block box">
+        <section class="article-inner">Blok artykułu</section>
+    </section>
+
+    <main class="main-block box">
+        <section class="columns">
+            <section class="col box">Sekcja pierwsza</section>
+            <section class="col box">Sekcja druga</section>
+            <section class="col box">Sekcja trzecia</section>
+        </section>
+    </main>
+
+    <footer class="box">Blok stopki</footer>
+</body>
+
+</html>

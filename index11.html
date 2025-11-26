@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <title>Arkusz 11</title>
+    <meta charset="utf-8">
+    <style>
+        /* ustaliłem rozmiar naszego boxu:3 */
+        * {
+            box-sizing: border-box;
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fafafa;
+        }
+
+        .box {
+            border: 2px solid #000;
+            background: #fff;
+        }
+
+        main.main-block {
+            max-width: 760px;
+        }
+
+        .inner {
+            display: flex;
+        }
+
+        aside {
+            width: 160px;
+        }
+
+        .right-col {
+            display: flex;
+            flex-direction: column;
+            flex: 1 1 0;
+        }
+
+        .right section {
+            min-height: 80px;
+        }
+
+        footer {
+            max-width: 760px;
+            min-height: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="index.html">Powrót</a>
+    <main class="main-block box">
+        <section class="inner">
+            <aside class="box">Blok boczny</aside>
+            <section class="right">
+                <section class="box">Sekcja 1</section>
+                <section class="box">Sekcja 2</section>
+            </section>
+        </section>
+    </main>
+    <footer class="box">Blok stopki</footer>
+</body>
+
+</html>
